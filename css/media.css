@@ -1,0 +1,212 @@
+@media screen and (min-device-width: 768px) and (max-device-width:1023px) {
+
+    header .region {
+
+margin-left: 38%;
+
+}
+
+    header .mail {
+
+margin-left: 39%;
+
+}
+    header .phone {
+
+margin-left: 34%;
+
+}
+
+    header .button {
+        
+margin-left: 40%;
+    }
+}
+
+
+@media screen and (min-device-width: 426px) and (max-device-width: 768px) {
+
+    section.about .col-lg-4 {
+    position: unset;
+   margin: 20px 0;
+   padding: 0;
+    }
+
+    .about .col-lg-4 .row {
+        border-bottom: 3px solid #730000;
+        margin-right: 7px;
+    }
+
+    .news .col-lg-7 p {
+margin-top: 20px;
+    }
+    .contacts .col-lg-2 p {
+        width: 
+    }
+    }
+
+    @media screen and (min-device-width: 426px) and (max-device-width: 767px) {
+        .about .button_info {
+            margin-left: 0;
+        }
+    }
+
+    @media screen and (min-device-width: 1024px) and (max-device-width: 1199px) {
+
+        
+        header .phone p {
+            font-size: 16px;
+        }
+        header .mail p {
+            font-size: 14px;
+        }
+        header .region p {
+            font-size: 14px;
+        }
+        header .logo p:nth-child(2) {
+            font-size: 9px;
+        }
+        .contacts .col-lg-2 p {
+            width: 162px;
+        }
+        .news .col-lg-6:nth-child(1) .col-lg-7 {
+            padding-left: 28px;
+        }
+        .news .col-lg-6:nth-child(2) .col-lg-7 {
+            padding-left: 28px;
+        }
+
+        #navbarNav ul li {
+            padding: .5rem 12px;
+        }
+
+        #navbarNav ul li:nth-last-child(2) {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    @media screen and (min-device-width: 769px) and (max-device-width: 991px) {
+        section.about .col-lg-4 {
+            position: unset;
+           margin: 20px 0;
+           padding: 0;
+        }
+
+        .about .col-lg-4 .row {
+            border-bottom: 3px solid #730000;
+            margin-right: 7px;
+        }
+    }
+
+    @media screen and (min-device-width: 720px) and (max-device-width: 960px) {
+        .contacts .logo {
+        text-align: center;
+        }
+        .contacts .phone_distrib {
+            text-align: center;
+        }
+        .contacts .mailing {
+            text-align: center;
+        }
+        .news .container .row:nth-child(1) .col-12:nth-child(1) {
+            text-align: center;
+        }
+    }
+    @media screen and (max-device-width:540px) {
+        .about .popular {
+            display: none;
+        }
+        .distributor {
+            display: none;
+        }
+    }
+
+    @media screen and (min-device-width: 320px) and (max-device-width:991px) {
+.menu .navigat {
+    text-align: center;
+    height: 900px;
+}
+#navbarNav ul li:nth-last-child(2) {
+    margin: 0 auto;
+}
+.menu {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+#navbarNav ul li {
+    border-right: unset;
+    border-bottom: 2px solid #730000;
+}
+
+.menu .col-lg-12 button:nth-child(1) {
+    margin-left: 90%;
+}
+.menu .btn {
+    margin: 0 auto !important;
+}
+header {
+    display: none;
+}
+    }
+
+    @media screen and (min-device-width: 320px) and (max-device-width:767px) {
+        .about .col-lg-5 .row {
+            height: unset;
+            text-align: center;
+        }
+        #navbarNav ul li {
+            border-right: unset;
+            border-bottom: 2px solid #730000;
+        }
+    }
+
+    @media screen and (max-device-width: 320px) {
+        header .mail {
+            margin-left: 23%;
+        }
+    }
+
+    @media screen and (min-device-width: 320px) and (max-device-width: 425px) {
+        section.about .col-lg-4 {
+            position: unset;
+            margin: 20px 0;
+            padding: 0;
+            text-align: center;
+        }
+        .about .button_info {
+            background-color: #c80101;
+            color: white;
+            border: 1px solid white;
+            margin-left:0;
+        }
+        .about .col-lg-4 .row {
+            margin-right: 7px;
+        }
+        .about .col-lg-7 {
+            text-align: center;
+        }
+        .news .container {
+            text-align: center;
+        }
+        .contacts .container {
+            text-align: center;
+        }
+        
+        .contacts .col-lg-2 p {
+            width: unset;
+        }
+        
+
+    }
+
+
+
+    @media screen and (min-device-width: 375px) and (max-device-width: 425px) {
+
+    header .logo {
+        margin-left: auto;
+    }
+
+   
